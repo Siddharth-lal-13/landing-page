@@ -538,3 +538,8 @@ body{
   }
 }
 
+.footer .container-fluid{
+  color: white;
+  background-color: black;
+}
+
