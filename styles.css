@@ -18,6 +18,11 @@ body{
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
+.navbar-nav a{
+  font-size: 18px;
+  margin-left: 26px;
+}
+
 .context {
     width: 100%;
     position: relative;
@@ -86,6 +91,10 @@ body{
   width: auto;
   will-change: transform,opacity;
   z-index: 0;
+}
+
+#main-btn{
+  background-color: #FBBC05;
 }
 
 .button-17:hover {
@@ -266,6 +275,7 @@ body{
   background-color: white;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
   border: 1px solid #ddd; /* Add border to create sharp edges */
+  border-radius: 25px;
   width: 80%; /* Adjust width as needed */
   padding: 20px;
   z-index: 2;
@@ -359,9 +369,9 @@ body{
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #e9ecef;
+    border: 7px solid #FBBC05;
     border-radius: 100%;
-    background-color: #ffc800;
+    background-color: #8f94fb;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 10px;
@@ -486,7 +496,7 @@ body{
     margin-bottom: 0;
   }
 
-  .container,
+.container,
 .container-fluid,
 .container-xxl,
 .container-xl,
