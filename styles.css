@@ -14,7 +14,7 @@ body{
 }
 
 .navbar-scrolled {
-  background-color: black;
+  background-color: #242b36;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -540,6 +540,6 @@ body{
 
 .footer .container-fluid{
   color: white;
-  background-color: black;
+  background-color: #242b36;
 }
 
