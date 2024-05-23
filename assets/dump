@@ -1,0 +1,49 @@
+#logo {
+    animation-name: bg-pan-bl;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-delay: 0s;
+		animation-iteration-count: 1;
+		animation-direction: normal;
+		animation-fill-mode: forwards;
+			
+		/* shorthand
+		animation: bg-pan-bl 1s linear 0s 1 normal forwards;*/
+	}
+@keyframes bg-pan-bl {
+		
+	0% {
+		background-position:100% 100%;
+		width:0px;
+		height:0px;
+	}
+	100% {
+		width:200px;
+		height:200px;
+	}
+}
+
+.display-4 {
+  animation-name: focus-in-expand;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+    
+  /* shorthand
+  animation: focus-in-expand 1s linear 0s 1 normal none;*/
+}
+@keyframes focus-in-expand {
+    
+  0% {
+    letter-spacing:-.5em;
+    filter:blur(12px);
+    opacity:0;
+  }
+  100% {
+    filter:blur(0);
+    opacity:1;
+  }
+}
